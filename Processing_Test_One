@@ -4,6 +4,7 @@ void setup() {
 }
 
 void draw() {
+ if (mousePressed) {
   if( mouseX < width/3) {
       fill(#42b3f4); //light blue
       rect(mouseX, mouseY, 10,10);
@@ -13,5 +14,6 @@ void draw() {
   } else {
       fill(#7af441); //yellow green
       rect(mouseX,mouseY,10,10);
+    }
   }
 }
