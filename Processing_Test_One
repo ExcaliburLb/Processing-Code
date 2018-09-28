@@ -1,0 +1,9 @@
+void setup() {
+  size(500,500);
+  background(#ad42f4); //purple
+}
+
+void draw() {
+  fill(#42b3f4); //light blue
+  rect(width/2, hight/2, 10,10);
+}
